@@ -1,0 +1,27 @@
+AKT2	inhibit	BRAF
+BRAF	activate	ERK12
+AKT2	inhibit	MAPK14
+ERK12	inhibit	MAPK14
+MAPK14	activate	AKT2
+ERK12	activate	JUN
+ERK12	activate	SOX2
+JNK	activate	JUN
+EGFR	activate	PI3K
+PI3K	activate	AKT2
+YAP1	inhibit	AKT2
+JUN	interacts with	ERK12
+EGFR	activate	ERK12
+AKT2	activate	EGR2
+YAP1	activate	YAP1
+HK1	inhibit	VDAC1
+AKT2	activate	HK1
+MAPK14	activate	BCL2L1
+BCL2L1	inhibit	VDAC1
+VDAC1	activate	MAPK14
+VDAC1	activate	JNK
+VDAC1	activate	ERK12
+YAP1	activate	EGR2
+PTEN	inhibit	AKT2
+EGFR	activate	PTEN
+JNK	activate	JNK
+EGFR	activate	EGFR
