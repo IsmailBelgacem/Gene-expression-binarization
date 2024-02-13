@@ -1,8 +1,15 @@
-# Yesinstall.packages("igraph")
-# 
+#################################### Genetic expression Binarization ################################################
+
+####################################      Ismail Belgacem 2024       ###############################################   
+
+#################################### The code was produced during this year in 2024  #################################################
+
+
+
+
+#  How to install igraph using "BiocManager"
 #  if (!require("BiocManager", quietly = TRUE))
 #   install.packages("BiocManager")
-
 # BiocManager::install("igraph")
 
 require(igraph)
